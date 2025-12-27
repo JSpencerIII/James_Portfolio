@@ -1,3 +1,17 @@
+# MyPortfolio
+
+This is my personal developer portfolio built to showcase my projects and skills.
+
+## 🚀 Tech Stack
+* **Framework:** React (via Vite)
+* **Language:** TypeScript
+* **Styling:** CSS / 3D.js
+* **Hosting:** Firebase
+
+## 🛠 Features
+* Interactive 3D background
+* Responsive design
+* Project showcase gallery
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
