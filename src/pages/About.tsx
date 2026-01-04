@@ -25,8 +25,9 @@ function About() {
                             About Me
                         </h1>
                         <p className="text-xl text-slate-300 leading-relaxed">
-                            Hello! I'm James, a passionate developer who loves building beautiful and functional web applications.
-                            I specialize in React, TypeScript, and modern UI design.
+                            Hi, I'm James. I'm an aspiring Cloud Engineer focused on building resilient, scalable systems.
+                            I bridge the gap between frontend development and cloud infrastructure, specializing in deploying
+                            type-safe applications that scale with demand.
                         </p>
                     </div>
                 </div>

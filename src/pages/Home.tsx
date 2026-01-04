@@ -4,12 +4,6 @@ function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 relative">
 
-      <header className="absolute top-0 left-0 w-full p-6 flex justify-between items-center z-10">
-        <h1 className="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-          My Portfolio
-        </h1>
-      </header>
-
       <main className="flex flex-col items-center text-center max-w-4xl mx-auto space-y-12 z-10 relative">
         <div className="space-y-6 animate-fade-in-up">
           <h2 className="text-6xl md:text-8xl font-bold tracking-tighter">
@@ -38,6 +32,14 @@ function Home() {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-pink-600/10 opacity-0 group-hover:opacity-100 transition-opacity" />
             <span className="relative text-lg font-semibold">My Projects</span>
+          </Link>
+
+          <Link
+            to="/contact"
+            className="group relative px-8 py-4 bg-slate-800/50 backdrop-blur-sm border border-cyan-700 rounded-xl overflow-hidden transition-all hover:border-cyan-500 hover:shadow-lg hover:shadow-cyan-500/20"
+          >
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-600/10 to-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity" />
+            <span className="relative text-lg font-semibold">Contact Me</span>
           </Link>
         </div>
       </main>
